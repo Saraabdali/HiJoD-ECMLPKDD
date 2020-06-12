@@ -38,7 +38,7 @@ for k=1:length(pl)
         R_final=rank(X);
         R_final_prev=1;
         tic
-        %%%%%%%%%%%%%%%%%%%%%%%%%%Level-1 Decomposition%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        %%%%%%%%%%%%%%%%%%%%%%%%%%Level-2 Decomposition%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         while(R_final~=R_final_prev || Err>Tol)
               %calculating J
               R_final_prev=R_final;
